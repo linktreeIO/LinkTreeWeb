@@ -1,3 +1,9 @@
-<p>
-  default-layout works!
-</p>
+<div class="default-layout-header">
+  <ng-content select=".default-layout-header-select"></ng-content>
+</div>
+<main>
+  <ng-content select=".default-layout-main-select"></ng-content>
+</main>
+<div class="default-layout-footer">
+  <ng-content select=".default-layout-footer-select"></ng-content>
+</div>
